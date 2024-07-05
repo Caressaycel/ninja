@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#ninja-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#ninja-list li {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #f2f7fa;
+    border-radius: 5px;
+    background-color: #dde5e8;
+}
+
+#ninja-list li:hover {
+    background-color: #d0dee8;
+}
+
+/* Button styles */
+button[type="button"], button[type="submit"] {
+    background-color: #4CAF50;
+    color: #10b3e4;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="button"]:hover, button[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+/* Form styles */
+#buy-form {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #0baac6;
+    border-radius: 5px;
+    background-color: #dde8f1;
+}
+
+#buy-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#buy-form input[type="text"], #buy-form input[type="number"] {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #07c2f0;
+    border-radius: 5px;
+}
